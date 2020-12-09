@@ -1,16 +1,3 @@
-<!-- ---
-layout: post
-title:  "Markdown Example"
-author: dalcomdev
-categories: [ Jekyll, tutorial ]
-image: assets/images/6.jpg
-tags: featured
-
-teaser: 
-masthead_title: "Markdown Example"
-show_date: true
---- -->
-
 Markdown 예제가 현재 theme 에서 어떻게 표현되는지 알아보자.  
 일부는 원하는 결과가 아니지만 그럭저럭 괜찮은듯 하다.<br /><br /><br />
 # 제목(Header)

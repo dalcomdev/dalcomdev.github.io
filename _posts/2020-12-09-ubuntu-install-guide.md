@@ -1,11 +1,3 @@
-<!-- ---
-layout: post
-title:  "Ubuntu install Guide"
-author: dalcomdev
-categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
---- -->
-
 Windows 10 에서 jekyll 을 구동하려면, 여러가지 난관에 부딪히게 된다. 손쉬운 방법은 Ubuntu 에서 설치하면 되는데 아래의 순서를 따르면 된다:
 
 ## 필요 프로그램 설치하기
