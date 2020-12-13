@@ -5,197 +5,250 @@ categories:
 tags:
   - jekyll
 ---
-Markdown 예제가 현재 theme 에서 어떻게 표현되는지 알아보자.  
-일부는 원하는 결과가 아니지만 그럭저럭 괜찮은듯 하다.<br /><br /><br />
-# 제목(Header)
-# 제목 1
-## 제목 2
-### 제목 3
-#### 제목 4
-##### 제목 5
-###### 제목 6
-```markdown
-# 제목(Header)
-# 제목 1
-## 제목 2
-### 제목 3
-#### 제목 4
-##### 제목 5
-###### 제목 6
-```
+## Markdown 예제가 현재 theme 에서 어떻게 표현되는지 알아보자.
 
-# 강조(Emphasis)
-이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.  
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용하세요.  
-**_이텔릭체_와 두껍게**를 같이 사용할 수 있습니다.  
-취소선은 ~~물결표시(tilde)~~를 사용하세요.  
-<u>밑줄</u>은 `<u></u>`를 사용하세요.
-```markdown
-이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.  
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용하세요.  
-**_이텔릭체_와 두껍게**를 같이 사용할 수 있습니다.  
-취소선은 ~~물결표시(tilde)~~를 사용하세요.  
-<u>밑줄</u>은 `<u></u>`를 사용하세요.
-```
-
-# 목록(List)
-1. 순서가 필요한 목록
-1. 순서가 필요한 목록
-- 순서가 필요하지 않은 목록(서브) 
-- 순서가 필요하지 않은 목록(서브) 
-1. 순서가 필요한 목록
-   1. 순서가 필요한 목록(서브)
-   1. 순서가 필요한 목록(서브)
-1. 순서가 필요한 목록
-
-- 순서가 필요하지 않은 목록에 사용 가능한 기호  
-  - 대쉬(hyphen)
-  * 별표(asterisks)
-  + 더하기(plus sign)
-```markdown
-1. 순서가 필요한 목록
-1. 순서가 필요한 목록
-- 순서가 필요하지 않은 목록(서브) 
-- 순서가 필요하지 않은 목록(서브) 
-1. 순서가 필요한 목록
-   1. 순서가 필요한 목록(서브)
-   1. 순서가 필요한 목록(서브)
-1. 순서가 필요한 목록
-
-- 순서가 필요하지 않은 목록에 사용 가능한 기호  
-  - 대쉬(hyphen)
-  * 별표(asterisks)
-  + 더하기(plus sign)
-```
-
-# 링크(Links)
-[GOOGLE](https://google.com)  
-[NAVER](https://naver.com "링크 설명(title)을 작성하세요.")  
-[상대적 참조](../users/login)  
-
-문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다.  
-
-다음과 같이 문서 내 일반 URL이나 꺾쇠 괄호(`< >`, Angle Brackets)안의 URL은 자동으로 링크를 사용합니다.  
-구글 홈페이지: https://google.com  
-네이버 홈페이지: <https://naver.com>  
-
-```markdown
-[GOOGLE](https://google.com)
-[NAVER](https://naver.com "링크 설명(title)을 작성하세요.")
-
-문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다.
-
-다음과 같이 문서 내 일반 URL이나 꺾쇠 괄호(`< >`, Angle Brackets)안의 URL은 자동으로 링크를 사용합니다.
-구글 홈페이지: https://google.com
-네이버 홈페이지: <https://naver.com>
-```
-
-# 이미지(Images)
-![대체 텍스트(alternative text)를 입력하세요!](http://www.gstatic.com/webp/gallery/5.jpg "링크 설명(title)을 작성하세요.")
-
-![Kayak][logo]
-
-[logo]: http://www.gstatic.com/webp/gallery/2.jpg "To go kayaking."
-
-[![Vue](https://kr.vuejs.org/images/logo.png)](https://kr.vuejs.org/)
-```markdown
-![대체 텍스트(alternative text)를 입력하세요!](http://www.gstatic.com/webp/gallery/5.jpg "링크 설명(title)을 작성하세요.")
-
-![Kayak][logo]
-
-[logo]: http://www.gstatic.com/webp/gallery/2.jpg "To go kayaking."
-
-[![Vue](https://kr.vuejs.org/images/logo.png)](https://kr.vuejs.org/)
-```
-
-# 코드(Code) 강조
-## 인라인(inline) 코드 강조
-`background`혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.
-
-## 블록(block) 코드 강조
-```html
-<a href="https://www.google.co.kr/" target="_blank">GOOGLE</a>
-```
-
-```css
-.list > li {
-  position: absolute;
-  top: 40px;
-}
-```
-
-```javascript
-function func() {
-  var a = 'AAA';
-  return a;
-}
-```
-
-```bash
-$ vim ./~zshrc
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a tag.
-```
-# 표(Table)
-
-| 값          | 의미                     | 기본값      |
-|------------|:----------------------:|---------:|
-| `static`   | 유형(기준) 없음 / 배치 불가능     | `static` |
-| `relative` | 요소 자신을 기준으로 배치         |          |
-| `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 |          |
-| `fixed`    | 브라우저 창을 기준으로 배치        |          |
-
-<br />
-<br />
-
-| 값            | 의미                             | 기본값    |
-|--------------|:------------------------------:|-------:|
-| ------------ | ------------------------------ | ------ |
-| `relative`   | 요소 **자신**을 기준으로 배치             |
-| `absolute`   | 위치 상 **_부모_(조상)요소**를 기준으로 배치   |
-| `fixed`      | **브라우저 창**을 기준으로 배치            |
-
-# 인용문(BlockQuote)
-인용문(blockQuote)
-
-> 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
-> _(네이버 국어 사전)_
-
-BREAK!
-
-> 인용문을 작성하세요!
->> 중첩된 인용문(nested blockquote)을 만들 수 있습니다.
->>> 중중첩된 인용문 1
->>> 중중첩된 인용문 2
->>> 중중첩된 인용문 3
-
-# 원시 HTML(Raw HTML)
-<u>마크다운에서 지원하지 않는 기능</u>을 사용할 때 유용하며 대부분 잘 동작합니다.
-
-<img width="150" src="http://www.gstatic.com/webp/gallery/4.jpg" alt="Prunus" title="A Wild Cherry (Prunus avium) in flower">
-
-![Prunus](http://www.gstatic.com/webp/gallery/4.jpg)
-
-# 수평선(Horizontal Rule)
 ---
-(Hyphens)
+__Advertisement :)__
 
-***
-(Asterisks)
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
+
+You will like those projects!
+
+---
+
+# h1 Heading 8-)
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+
+
+## Horizontal Rules
 
 ___
-(Underscores)
 
-# 줄바꿈(Line Breaks)
-동해물과 백두산이 마르고 닳도록 
-하느님이 보우하사 우리나라 만세   <!--띄어쓰기 2번-->
-무궁화 삼천리 화려 강산<br>
-대한 사람 대한으로 길이 보전하세
+---
+
+***
+
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
+
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- 19^th^
+- H~2~O
+
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
