@@ -31,5 +31,6 @@ group :jekyll_plugins do
     gem "jekyll-sitemap"
     gem "jekyll-paginate"
     gem "jekyll-include-cache"
-    gem "jekyll-algolia"
+    # gem "jekyll-algolia"
+    gem "jekyll-archives"
 end
