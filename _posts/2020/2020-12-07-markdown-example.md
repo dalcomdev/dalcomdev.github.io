@@ -7,18 +7,6 @@ tags:
 ---
 ## Markdown 예제가 현재 theme 에서 어떻게 표현되는지 알아보자.
 
----
-__Advertisement :)__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
-
----
-
 # h1 Heading 8-)
 ## h2 Heading
 ### h3 Heading
