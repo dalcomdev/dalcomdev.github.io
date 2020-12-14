@@ -5,7 +5,7 @@ categories:
 tags:
   - jekyll
 ---
-Windows 10 에서 jekyll 을 구동하려면, 여러가지 난관에 부딪히게 된다. 손쉬운 방법은 Ubuntu 에서 설치하면 되는데 아래의 순서를 따르면 된다:
+Windows 10 에서 jekyll 을 구동하려면, 여러가지 난관에 부딪히게 된다. 손쉬운 방법은 Windows 10 내의 Ubuntu 에 설치하면 되는데 아래의 순서를 따르면 된다:
 
 ## 필요 프로그램 설치하기
 ### apt-get update 및 필요 라이브러리 설치
@@ -22,7 +22,7 @@ $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 ### rbenv 환경변수 설정
 ```bash
 $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-$ echo 'eval "$(rbenv init -)"' >> ~/.bashr
+$ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
