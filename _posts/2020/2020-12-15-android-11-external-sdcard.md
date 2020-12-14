@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 toc: true
@@ -73,6 +73,3 @@ private boolean isExternalSdcardAvailable() {
 ```
 
 이상 Android 11 이상에서 external sd card 확인하는 방법이다.
-
-
-
