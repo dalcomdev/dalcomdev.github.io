@@ -21,7 +21,6 @@ Android 에서는 흔히 sdcard 라고 말하면 removable 메모리 카드를 �
   - external: /sdcard/Download
 
 ## Android 11 이상 target 단말에서 external sd card 확인하는 방법
----
 
 Android 11 이전 단말에서는 sd memory card 를 확인하는 방법이 복잡하다.  
 여러가지 체크해야할 포인트도 많고, 단말마다 다른결과가 나오기도 한다. 
@@ -41,7 +40,6 @@ for ( final File file : files ) {
 ```
 
 ## Android 11 이상에서는 StorageManager 사용
----
 
 Android 11 부터는 StorageManager 를 사용하여 구현 하면 된다.
 
