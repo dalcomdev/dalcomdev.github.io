@@ -1,7 +1,5 @@
 ---
 published: true
----
----
 toc: true
 categories:
   - Android
@@ -48,6 +46,12 @@ for ( final File file : files ) {
 Android 11 부터는 StorageManager 를 사용하여 구현 하면 된다.
 
 ```java
+...
+private StorageManager mStorageManager;
+...
+mStorageManager = (StorageManager) context.getSystemService(Context.STORAGE_SERVICE);
+...
+
 @RequiresApi(api = Build.VERSION_CODES.R)
 private boolean isExternalSdcardAvailable() {
   File[] extDirs = getContext().getExternalFilesDirs(null);
