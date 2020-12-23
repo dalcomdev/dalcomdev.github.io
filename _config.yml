@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "dalcomdev"
   avatar           : /assets/images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer 😀"
-  location         : "Somewhere in Seoul, Korea"
+  bio              : "Software Engineer 😀 living in Seoul, Korea"
+  location         : "Asia/Seoul"
   email            : "bymgood@gmail.com"
   linkedin         : "justin-baek"
   github           : "dalcomdev"
