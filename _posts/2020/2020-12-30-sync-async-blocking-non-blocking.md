@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Sync, Async, Blocking, and Non-Blocking
 
@@ -40,5 +40,3 @@ published: false
   ```
 1. async + blocking: 
   - async 로 호출하였는데 blocking 에 걸려서, sync+blocking 같은 결과가 나옴.
-
-
