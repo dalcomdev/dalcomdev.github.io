@@ -1,5 +1,10 @@
 ---
 published: true
+toc: true
+categories:
+  - Terminology
+tags:
+  - terminology
 ---
 ## Sync, Async, Blocking, and Non-Blocking
 
