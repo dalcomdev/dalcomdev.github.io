@@ -1,5 +1,10 @@
 ---
 published: true
+toc: true
+categories:
+  - Terminology
+tags:
+  - terminology
 ---
 ## Higher order function
 HIgher order function 은 2가지 특성을 가지고 있다.  
