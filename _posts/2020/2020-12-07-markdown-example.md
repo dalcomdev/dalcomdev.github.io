@@ -4,6 +4,7 @@ categories:
   - Jekyll
 tags:
   - jekyll
+published: true
 ---
 ## Markdown 예제가 현재 theme 에서 어떻게 표현되는지 알아보자.
 
@@ -240,3 +241,6 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
+
+### Image from github/issue test
+![Image was uploaded from temporary github/issue editing](https://user-images.githubusercontent.com/9858389/111877767-2ae4fc80-89e8-11eb-9587-4f60688f9330.png)
