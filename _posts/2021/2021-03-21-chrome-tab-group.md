@@ -13,7 +13,7 @@ tags:
 
 ### Internet Browser 점유율 (February 2021)
 | Chrome | Safari | Firefox | Edge | Samsung Internet | Opera |
-|--|--|--|--|--|--|
+|:-:|:-:|:-:|:-:|:-:|:-:|
 | 63.59% | 19.14% | 3.76% | 3.41% | 3.31% | 2.19% |
 
 ## 그룹 탭 메뉴 추가
