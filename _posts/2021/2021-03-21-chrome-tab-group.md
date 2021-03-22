@@ -12,6 +12,7 @@ tags:
 >> Chrome 이 메모리를 많이 먹는다고 싫어하는 사람도 많지만, chrome 의 점유율이 1등이므로 기능을 한번 알아보자.
 
 ### Internet Browser 점유율 (February 2021)
+
 | Chrome | Safari | Firefox | Edge | Samsung Internet | Opera |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | 63.59% | 19.14% | 3.76% | 3.41% | 3.31% | 2.19% |
