@@ -34,3 +34,4 @@ group :jekyll_plugins do
     # gem "jekyll-algolia"
     gem "jekyll-archives"
 end
+gem "webrick", "~> 1.7"
