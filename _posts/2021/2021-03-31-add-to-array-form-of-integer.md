@@ -39,7 +39,7 @@ class Solution {
 ```
 
 ### Complexity Analysis  
-Time Complexity: O(max(N,logK)) where N is the length of A.
+Time Complexity: O(max(N,logK)) where N is the length of A.  
 Space Complexity: O(max(N,logK)). 
 
 > 참 쉽죠?
