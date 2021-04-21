@@ -2,14 +2,13 @@
 published: true
 toc: true
 categories:
-  - Tip
+  - Tips
 tags:
-  - Tip
+  - tips
 ---
 
 ## Android Studio project 열기
-mac 을 사용하다 보면, Android Studio project 를 command line 에서 열고 싶을 때가 있다.  
-그럴때 방법이 없을까 찾아보니 Android Studio 에서 이미 지원하는 기능이었다. 방법은 다음과 같다.  
+mac 을 사용하다 보면, Android Studio project 를 command line 에서 열고 싶을 때가 있다. 그럴때 방법이 없을까 찾아보니 Android Studio 에서 이미 지원하는 기능이었다. 방법은 다음과 같다.  
 
 1. 메뉴에서 Tools > Create Command-line Launcher... 를 선택한 다음  
 <img src="https://user-images.githubusercontent.com/9858389/115602174-98eb4f00-a319-11eb-9ccd-587bdb0016bf.png" width="300" />  
@@ -22,5 +21,6 @@ mac 을 사용하다 보면, Android Studio project 를 command line 에서 열�
 ```bash
 studio architecture-components-samples/
 ```  
+
 
 귀차니즘에 마우스를 쓰지않고 열고 싶을때 사용하면 좋다. 😀

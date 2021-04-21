@@ -4,7 +4,7 @@ toc: true
 categories:
   - Algorithm
 tags:
-  - Algorithm
+  - algorithm
 ---
 ## Array 형태의 Integer 덧셈
 > Integer 원소들의 Array 와 K 를 더하여 List<Integer> 로 반환하는 문제이다.

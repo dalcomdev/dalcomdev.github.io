@@ -2,9 +2,9 @@
 published: true
 toc: true
 categories:
-  - Tip
+  - Tips
 tags:
-  - chrome, tip
+  - tips
 ---
 ## Chrome tab group
 
