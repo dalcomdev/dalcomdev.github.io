@@ -4,7 +4,7 @@ toc: true
 categories:
   - Tips
 tags:
-  - tips
+  - android studio, tips
 ---
 
 ## Android Studio project 열기
