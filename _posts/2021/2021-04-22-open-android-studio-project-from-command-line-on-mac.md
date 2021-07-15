@@ -2,7 +2,7 @@
 published: true
 toc: true
 categories:
-  - Tips
+  - tips
 tags:
   - [android, tips]
 ---

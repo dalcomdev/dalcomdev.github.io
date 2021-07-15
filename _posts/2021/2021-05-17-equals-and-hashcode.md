@@ -2,7 +2,7 @@
 published: true
 toc: true
 categories:
-  - Java
+  - java
 ---
 
 ## equals and hashCode contract

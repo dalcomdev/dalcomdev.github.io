@@ -2,7 +2,7 @@
 published: true
 toc: true
 categories:
-  - Algorithm
+  - algorithm
 tags:
   - algorithm
 ---

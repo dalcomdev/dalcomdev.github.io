@@ -2,7 +2,9 @@
 published: true
 toc: true
 categories:
-  - Android
+  - android
+tags:
+  - android
 ---
 
 ## Android logcat filter
