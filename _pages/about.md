@@ -9,10 +9,10 @@ title: "About"
 
 2002년 부터 개발을 시작하여, Java 기반 Web/Android 개발을 하고 있다.
 
-| Skills   |                                       |
-|----------|---------------------------------------|
-| Language | Java, C#(asp.net), Javascript, Kotlin |
-| Backend  | Spring Framework, JPA, mybatis        |
-| Frontend | jQuery, Bootstrap, css, Thymeleaf     |
-| DB       | Oracle, MS-SQL, mysql, postgre-sql    |
-| Android  | AAC, Retrofit, etc...                 |
+| Skills   |                                                  |
+|----------|--------------------------------------------------|
+| Language | Java, C#(asp.net), Javascript, Kotlin            |
+| Backend  | Spring Framework, JPA, mybatis                   |
+| Frontend | jQuery, Bootstrap, css, Thymeleaf                |
+| DB       | Oracle, MS-SQL, mysql, postgre-sql               |
+| Android  | MVVM, Clean Architecture, Coroutine/Flow, RxJava |
